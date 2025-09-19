@@ -1,0 +1,66 @@
+General Feedback for the cohort:
+
+Overall, this coursework was handled well by the majority, with the average mark being 75.5%.
+Roughly 1.8% of students have achieved a mark between 50 and 60.
+Roughly 14.1% of students have achieved a mark between 60 and 70.
+Roughly 41.7% of students have achieved a mark between 70 and 80.
+Roughly 34.8% of students achieved a mark between 80 and 90.
+Roughly 3.8% of students achieved a mark of 90 or higher.
+
+
+Most people did very well in exercise one, with the biggest issues being a lack of comments, or not reasoning about the probability thoroughly enough.
+Though it should be noted that was a number of solutions that featured extraneous calculations within the while loop.
+The preamble in this section often was brief, and this was fine. There is not a lot to say, after all.
+It would have been good to see more use of efficient string creation, and limiting output to a single constructed printline.
+Arrays are often useful here, and some used them very effectively.
+In exercise 2, many stuck with a do while loop, when switching to a while loop would allow a more elegant incorporation of the ahead bias and 1/8 chance.
+There was a subset of students that left in the pure random choice from exercise 1, resulting in students overriding their own ahead bias and 1/8 chance.
+Some solutions attempted a heavily mathematical solution, at the cost of readability and not gaining any significant computational advantage.
+Few people realised you could either add a random number to AHEAD or use an array, to eliminate the need for an if statment.
+Again, in exercise 2, there was a lack of comments. The preamble often focused on the probability, but then did not talk about other design choices in enough detail.
+For exercise 3, many people did not talk about their testing, despite it being the only way to verify that exercise 3 met the specification.
+While we did not explictly ask you to talk about testing, you are asked about how your solution achieved the specification and in the case where a robot is exhibiting clearly bad behaviour, testing is your only justification for what is being presented to the customer.
+This exercise results in a broken robot, that cannot find the target, so verifying that it behaves as requested through testing is a very strong, and necessary, point of discussion when justifying your submission.
+The best control headers made use of arrays or arraylists of options in order to minimise the need to exhaustively check every situation.
+The best look headings took advantage of the relationship between absolute and relaitonal directions to calculate the direction to look in a single line.
+Only a small set of students used hard-coded values instead of ENUMS, but there were a number of submissions with compilation issues.
+Most commonly, students did not rename their class files, resulting in compilation issues.
+------------------------
+Feedback for student 5661937 for coursework 1 of CS118
+
+
+Exercise 1:
+	No Collisions : High 1st
+	Logging Output : 1st
+	Assessment of Probability : 2:2
+	Comments : 1st
+	Good Coding Practices : 1st
+	Preamble : High 1st
+	Ex 1 Mark : 78
+	Exercise 1 Comments : Good use of a do-while loop to improve efficiency. Good string construction. Does not state the exact probabilities. Student only gave an approximate answer for the probability of choosing directions. There is a good commenting style / structure. Consider use of Java-doc style comments. Code is well structured.
+
+Exercise 2:
+	Balanced Probabilities : 1st
+	AHEAD Bias : 1st
+	1/8 Change : 1st
+	Comments : 1st
+	Good Coding Practices : 2:1
+	Preamble : High 1st
+	Ex 2 Mark : 78
+	Exercise 2 Comments : Robot chooses directions with equal probability. Integration of AHEAD bias could be better. AHEAD bias used in if-statement well. 1 in 8 chance used in if-statement well. 1 in 8 directional change could be integrated better. There is a good commenting style / structure. Consider use of Java-docs style comments. Code is well structured. Indentation is inconsistent. Confused about a set of '{}" that seem to add nothing.
+
+Exercise 3:
+	isTargetNorth/East : 1st
+	headingLook method : 1st
+	headingController method : 2:2
+	Use of Controller : High 1st
+	ControlTest use : High 1st
+	Explanation of Testing : Fail
+	Comments : 1st
+	Good Coding Practices : 1st
+	Modularisation : 1st
+	Assessment of Specification : 2:2
+	Ex 3 Mark : 68
+	Exercise 3 Comments : Target is sensed correctly. Target sensing makes unneeded variables. Robot's state is reset after looking in the selected direction Well engineered heading controller solution that accounts for all possibilities. Good integration of controller into ControlRobot. ControlTest passes 100%. There is no testing discussion  making it unclear how we verified that the code fulfilled the client's specification. There is a good commenting style / structure. Code is well structured. Consider use of Java-doc style comments. Code is modular. The flaws in the specification are not understood. A solution to the flaws is presented  but is vague and / or of low quality. Headingcontroller throws exceptions when it should backtrack.
+
+ Final Mark: 73
