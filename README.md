@@ -2,7 +2,7 @@
 
 This repository contains my solutions for **Coursework 1 (CW1)** and **Coursework 2 (CW2)** from the _Programming for Computer Scientists_ module (CS118, Warwick, 2024/25).
 
-## 📖 Overview
+## Overview
 
 The coursework involved designing **robot controllers in Java** to navigate a maze simulation environment.  
 Across CW1 and CW2, the controllers progressed from simple randomised movement to **memory-driven and search-based strategies**.
@@ -19,19 +19,19 @@ Across CW1 and CW2, the controllers progressed from simple randomised movement t
   - _Exercise 3_: Applied **Depth-First Search (DFS)** for systematic pathfinding.
   - _Grand Finale_: Integrated memory and search strategies into a final optimised controller for complex mazes.
 
-## 🛠️ Technologies & Concepts
+## Technologies & Concepts
 
 - **Language:** Java
 - **Paradigms:** Object-Oriented Programming (OOP), modular design
 - **Algorithms:** Randomised movement, probability bias, Depth-First Search (DFS), memory-based exploration
 - **Software Engineering:** Modularisation, documentation, testing with `ControlTest`
 
-## 📊 Results
+## Results
 
 - **Coursework 1:** Achieved _73% (First Class)_ with strong feedback on structured design, modularisation, and clean coding style.
 - **Coursework 2:** Extended approaches to more sophisticated algorithms and integrated them in the "Grand Finale".
 
-## 🚀 Running the Code
+## Running the Code
 
 1. Clone the repository:
 
@@ -68,7 +68,7 @@ Java coursework/
     └── 5661937 (CW2).txt # Submission details
 ```
 
-## 🎯 Key Features
+## Key Features
 
 - **Modular Design**: Each exercise builds upon previous concepts
 - **Algorithm Progression**: From random movement to sophisticated search algorithms
@@ -76,7 +76,7 @@ Java coursework/
 - **Search Strategies**: Implementation of DFS for systematic exploration
 - **Integration**: Final controller combines multiple approaches for optimal performance
 
-## 📝 Notes
+## Notes
 
 - All code follows Java best practices and OOP principles
 - Extensive documentation and comments for clarity
