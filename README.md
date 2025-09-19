@@ -26,11 +26,6 @@ Across CW1 and CW2, the controllers progressed from simple randomised movement t
 - **Algorithms:** Randomised movement, probability bias, Depth-First Search (DFS), memory-based exploration
 - **Software Engineering:** Modularisation, documentation, testing with `ControlTest`
 
-## Results
-
-- **Coursework 1:** Achieved _73% (First Class)_ with strong feedback on structured design, modularisation, and clean coding style.
-- **Coursework 2:** Extended approaches to more sophisticated algorithms and integrated them in the "Grand Finale".
-
 ## Running the Code
 
 1. Clone the repository:
